@@ -2,16 +2,9 @@
 
 document.querySelector('main');
 main.remove();
-
-const newHeader = document.createElement("h1");
-
-document.body.append(newHeader);
-
-newHeader.setAttribute('id','h1');
-
+let newHeader = document.createElement("h1");
 newHeader.id='victory';
-
-document.getElementById("victory");
-
-newHeader.innerHTML =" Daizy is the champion";
+console.log(newHeader)
+newHeader.innerHTML =" Reese is the champion";
+document.body.append(newHeader);
 
